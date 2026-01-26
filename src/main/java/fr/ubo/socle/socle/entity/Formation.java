@@ -29,8 +29,9 @@ public class Formation {
     @Column(name = "NOM_FORMATION", nullable = false, length = 64)
     private String nomFormation;
 
+    @ColumnDefault("'N'")
     @Column(name = "DOUBLE_DIPLOME", nullable = false)
-    private Boolean doubleDiplome = false;
+    private String doubleDiplome;
 
     @Column(name = "DEBUT_HABILITATION")
     private LocalDate debutHabilitation;
