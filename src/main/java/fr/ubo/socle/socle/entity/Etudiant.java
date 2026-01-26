@@ -109,6 +109,6 @@ public class Etudiant {
 
     @ColumnDefault("'N'")
     @Column(name = "EST_DIPLOME")
-    private Boolean estDiplome;
+    private String estDiplome;
 
 }

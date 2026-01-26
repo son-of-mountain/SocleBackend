@@ -1,9 +1,6 @@
 package fr.ubo.socle.socle.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -13,6 +10,8 @@ import lombok.Setter;
 @Table(name = "ENSEIGNANT")
 public class Enseignant {
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "enseignant_seq")
+    @SequenceGenerator(name = "enseignant_seq", sequenceName = "SEQ_ENSEIGNANT", allocationSize = 1)
     @Column(name = "NO_ENSEIGNANT", nullable = false)
     private Integer id;
 
