@@ -11,3 +11,4 @@ src/test
 build/
 src/main/resources/application.properties
 .gradle/*
+build/reports/problems/problems-report.html
