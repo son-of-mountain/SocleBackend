@@ -1,4 +1,4 @@
-package fr.ubo.socle.socle.entity;
+package fr.ubo.socle.socle.entity.secondary;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;

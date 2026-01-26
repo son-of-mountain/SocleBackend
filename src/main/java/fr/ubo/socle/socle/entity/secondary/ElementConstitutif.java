@@ -1,4 +1,4 @@
-package fr.ubo.socle.socle.entity;
+package fr.ubo.socle.socle.entity.secondary;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EmbeddedId;
@@ -10,10 +10,10 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "UNITE_ENSEIGNEMENT")
-public class UniteEnseignement {
+@Table(name = "ELEMENT_CONSTITUTIF")
+public class ElementConstitutif {
     @EmbeddedId
-    private UniteEnseignementId id;
+    private ElementConstitutifId id;
 
     @Column(name = "NO_ENSEIGNANT", nullable = false)
     private Integer noEnseignant;
@@ -21,14 +21,11 @@ public class UniteEnseignement {
     @Column(name = "DESIGNATION", nullable = false, length = 64)
     private String designation;
 
-    @Column(name = "SEMESTRE", nullable = false, length = 3)
-    private String semestre;
-
-    @Column(name = "DESCRIPTION", length = 256)
+    @Column(name = "DESCRIPTION", nullable = false, length = 240)
     private String description;
 
     @Column(name = "NBH_CM")
-    private Long nbhCm;
+    private Short nbhCm;
 
     @Column(name = "NBH_TD")
     private Short nbhTd;
