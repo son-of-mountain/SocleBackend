@@ -3,11 +3,15 @@ package fr.ubo.socle.socle.entity;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import org.hibernate.annotations.SQLDelete;
+import org.hibernate.annotations.SQLRestriction;
 
 @Getter
 @Setter
 @Entity
 @Table(name = "ENSEIGNANT")
+@SQLDelete(sql = "UPDATE ENSEIGNANT SET EST_SUPPRIME = 'O' WHERE NO_ENSEIGNANT = ?")
+@SQLRestriction("EST_SUPPRIME = 'N'")
 public class Enseignant {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "enseignant_seq")

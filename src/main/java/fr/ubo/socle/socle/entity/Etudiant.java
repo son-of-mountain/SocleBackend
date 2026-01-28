@@ -7,6 +7,8 @@ import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.ColumnDefault;
+import org.hibernate.annotations.SQLDelete;
+import org.hibernate.annotations.SQLRestriction;
 
 import java.time.LocalDate;
 
@@ -14,6 +16,8 @@ import java.time.LocalDate;
 @Setter
 @Entity
 @Table(name = "ETUDIANT")
+@SQLDelete(sql = "UPDATE ETUDIANT SET EST_SUPPRIME = 'O' WHERE NO_ETUDIANT_NAT = ?")
+@SQLRestriction("EST_SUPPRIME = 'N'")
 public class Etudiant {
     @Id
     @Column(name = "NO_ETUDIANT_NAT", nullable = false, length = 50)

@@ -7,6 +7,8 @@ import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.ColumnDefault;
+import org.hibernate.annotations.SQLDelete;
+import org.hibernate.annotations.SQLRestriction;
 
 import java.time.LocalDate;
 
@@ -14,6 +16,8 @@ import java.time.LocalDate;
 @Setter
 @Entity
 @Table(name = "PROMOTION")
+@SQLDelete(sql = "UPDATE PROMOTION SET EST_SUPPRIME = 'O' WHERE ANNEE_PRO = ?")
+@SQLRestriction("EST_SUPPRIME = 'N'")
 public class Promotion {
     @Id
     @Column(name = "ANNEE_PRO", nullable = false, length = 10)

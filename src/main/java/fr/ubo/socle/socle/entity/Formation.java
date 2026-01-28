@@ -7,6 +7,8 @@ import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.ColumnDefault;
+import org.hibernate.annotations.SQLDelete;
+import org.hibernate.annotations.SQLRestriction;
 
 import java.time.LocalDate;
 
@@ -14,6 +16,8 @@ import java.time.LocalDate;
 @Setter
 @Entity
 @Table(name = "FORMATION")
+@SQLDelete(sql = "UPDATE FORMATION SET EST_SUPPRIME = 'O' WHERE CODE_FORMATION = ?")
+@SQLRestriction("EST_SUPPRIME = 'N'")
 public class Formation {
     @Id
     @Column(name = "CODE_FORMATION", nullable = false, length = 8)
