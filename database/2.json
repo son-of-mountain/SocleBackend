@@ -1,0 +1,42 @@
+[
+    {
+        "codeFormation": "M2-DOSI", "nomFormation": "Master 2 DOSI", "diplome": "M", "n0Annee": 2,
+        "doubleDiplome": "N", "debutHabilitation": "2022-09-01", "finHabilitation": "2028-09-01"
+    },
+    {
+        "codeFormation": "M2-TIIL", "nomFormation": "Master 2 TIIL", "diplome": "M", "n0Annee": 2,
+        "doubleDiplome": "N", "debutHabilitation": "2022-09-01", "finHabilitation": "2028-09-01"
+    },
+    {
+        "codeFormation": "M2-LSE", "nomFormation": "Master 2 Logiciel Embarqué", "diplome": "M", "n0Annee": 2,
+        "doubleDiplome": "O", "debutHabilitation": "2022-09-01", "finHabilitation": "2028-09-01"
+    },
+    {
+        "codeFormation": "M1-INFO", "nomFormation": "Master 1 Informatique", "diplome": "M", "n0Annee": 1,
+        "doubleDiplome": "N", "debutHabilitation": "2022-09-01", "finHabilitation": "2028-09-01"
+    },
+    {
+        "codeFormation": "L3-INFO", "nomFormation": "Licence 3 Informatique", "diplome": "L", "n0Annee": 3,
+        "doubleDiplome": "N", "debutHabilitation": "2022-09-01", "finHabilitation": "2028-09-01"
+    },
+    {
+        "codeFormation": "M2-CSI", "nomFormation": "Master 2 Cyber Sécurité", "diplome": "M", "n0Annee": 2,
+        "doubleDiplome": "O", "debutHabilitation": "2023-09-01", "finHabilitation": "2029-09-01"
+    },
+    {
+        "codeFormation": "L1-MATH", "nomFormation": "Licence 1 Maths-Info", "diplome": "L", "n0Annee": 1,
+        "doubleDiplome": "N", "debutHabilitation": "2020-09-01", "finHabilitation": "2026-09-01"
+    },
+    {
+        "codeFormation": "M2-BI", "nomFormation": "Master 2 Business Intelligence", "diplome": "M", "n0Annee": 2,
+        "doubleDiplome": "N", "debutHabilitation": "2021-09-01", "finHabilitation": "2027-09-01"
+    },
+    {
+        "codeFormation": "DU-BD", "nomFormation": "DU Big Data", "diplome": "L", "n0Annee": 3,
+        "doubleDiplome": "N", "debutHabilitation": "2024-09-01", "finHabilitation": "2025-09-01"
+    },
+    {
+        "codeFormation": "M2-AI", "nomFormation": "Master 2 IA Avancée", "diplome": "M", "n0Annee": 2,
+        "doubleDiplome": "O", "debutHabilitation": "2025-09-01", "finHabilitation": "2030-09-01"
+    }
+]

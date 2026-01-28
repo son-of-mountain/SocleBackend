@@ -1,0 +1,52 @@
+[
+    {
+        "noEnseignant": 1,
+        "nom": "SIOHAN", "prenom": "Pierre", "emailUbo": "pierre.siohan@univ-brest.fr",
+        "type": "PROF", "sexe": "H", "adresse": "12 Rue des Archives", "cp": "29200", "ville": "BREST", "pays": "FRANCE", "telephone": "0601010101"
+    },
+    {
+        "noEnseignant": 2,
+        "nom": "LEPARC", "prenom": "Philippe", "emailUbo": "philippe.leparc@univ-brest.fr",
+        "type": "MCF", "sexe": "H", "adresse": "5 Avenue Le Gorgeu", "cp": "29200", "ville": "BREST", "pays": "FRANCE", "telephone": "0602020202"
+    },
+    {
+        "noEnseignant": 3,
+        "nom": "LE GORGEU", "prenom": "Armel", "emailUbo": "armel.legorgeu@univ-brest.fr",
+        "type": "PRAG", "sexe": "H", "adresse": "3 Rue de Siam", "cp": "29200", "ville": "BREST", "pays": "FRANCE", "telephone": "0603030303"
+    },
+    {
+        "noEnseignant": 4,
+        "nom": "TURING", "prenom": "Alan", "emailUbo": "alan.turing@univ-brest.fr",
+        "type": "PROF", "sexe": "H", "adresse": "Bletchley Park", "cp": "99000", "ville": "LONDRES", "pays": "UK", "telephone": "0604040404"
+    },
+    {
+        "noEnseignant": 5,
+        "nom": "HOPPER", "prenom": "Grace", "emailUbo": "grace.hopper@univ-brest.fr",
+        "type": "PROF", "sexe": "F", "adresse": "Navy Street", "cp": "10000", "ville": "NEW YORK", "pays": "USA", "telephone": "0605050505"
+    },
+    {
+        "noEnseignant": 6,
+        "nom": "LOVELACE", "prenom": "Ada", "emailUbo": "ada.lovelace@univ-brest.fr",
+        "type": "MCF", "sexe": "F", "adresse": "London Road", "cp": "29200", "ville": "BREST", "pays": "FRANCE", "telephone": "0606060606"
+    },
+    {
+        "noEnseignant": 7,
+        "nom": "GOSLING", "prenom": "James", "emailUbo": "james.gosling@univ-brest.fr",
+        "type": "INT", "sexe": "H", "adresse": "Java Avenue", "cp": "94000", "ville": "SAN FRANCISCO", "pays": "USA", "telephone": "0607070707"
+    },
+    {
+        "noEnseignant": 8,
+        "nom": "BERNERS-LEE", "prenom": "Tim", "emailUbo": "tim.berners@univ-brest.fr",
+        "type": "PROF", "sexe": "H", "adresse": "W3C Blvd", "cp": "02000", "ville": "BOSTON", "pays": "USA", "telephone": "0608080808"
+    },
+    {
+        "noEnseignant": 9,
+        "nom": "LIPKOVSKI", "prenom": "Janna", "emailUbo": "janna.lip@univ-brest.fr",
+        "type": "PRAG", "sexe": "F", "adresse": "Rue de la Fac", "cp": "29200", "ville": "BREST", "pays": "FRANCE", "telephone": "0609090909"
+    },
+    {
+        "noEnseignant": 10,
+        "nom": "TORVALDS", "prenom": "Linus", "emailUbo": "linus.torvalds@univ-brest.fr",
+        "type": "INT", "sexe": "H", "adresse": "Penguin St", "cp": "00000", "ville": "HELSINKI", "pays": "FINLANDE", "telephone": "0610101010"
+    }
+]
