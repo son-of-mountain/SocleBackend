@@ -28,7 +28,7 @@ public class Formation {
 
     @ColumnDefault("1")
     @Column(name = "N0_ANNEE", nullable = false)
-    private Boolean n0Annee = false;
+    private Integer n0Annee ;
 
     @Column(name = "NOM_FORMATION", nullable = false, length = 64)
     private String nomFormation;
